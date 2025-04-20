@@ -1,5 +1,4 @@
 #include <iostream>
-#include <conio.h>
 #include <cstdlib>
 #include "phonebook.h"
 using namespace std;
@@ -34,7 +33,7 @@ void menu() {
             default:
                 cout<<"\a\n ERROR !!! Wrong Choice...";
         }
-        getch();
+        cin.get();
     } while(ch);
 }
 
